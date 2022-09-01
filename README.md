@@ -5,7 +5,11 @@ Standalone version of the Libmoji repo [https://github.com/matthewnau/libmoji](h
 - Move libmoji.js to project root
 - Link the libmoji file
 ```html
-<script type="text/javascript" src="path_to/libmoji.js" />
+# Regular js file
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cableguyp/libmoji-standalone/libmoji.js" />
+
+# Minified Version
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cableguyp/libmoji-standalone/libmoji.min.js" />
 ```
 - Initialize the package
 ```javascript
